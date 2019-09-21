@@ -1,51 +1,228 @@
+/*
+
+Each of these CSS elements is associated with an HTML Element, Class, or ID.
+Flip between this CSS file and the HTML to see how things line up.
+Experiment with deleting lines of code from the CSS to see how it affects the webpage when you refresh in the browser.
+
+*/
 * {
-    box-sizing: border-box;
-    text-align: center;
-  }
-  h1 {
-    background-color: lightblue;
-    width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+.span {
+  color:#cccccc;
+}
+
+h1 {
+  background-color: #ffffff;
+  width: 100%;
+  height: 60px;
+  color: white;
+  font-size: 10px;
+  padding: 20px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  border-bottom: 3px solid #cccccc;
+
+  
+  top: 0;
+
+}
+
+.html-links {
+  float:right;
+  font-size: 20px;
+  color:#666666;
+}
+
+
+.name, .head {
+  position: absolute;
+  top: 0px;
     height: 60px;
-    color: white;
-    font-size: 10px;
-    padding: 20px;
-    margin-top: 0px;
-    margin-bottom: 30px;
+  float: left;
+  padding: 30px;
+  background: #4aaaa5;
+  font-size: 25px;
+  text-align: center;
+  padding: 10px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
 
-    
-    top: 0;
-
-  }
-
-  .html-links {
-    float:right;
-    font-size: 20px;
-  }
+}
 
 
-  .name, .head {
-    position: absolute;
-    top: 0;
-    height: 60px;
-    float: left;
-    padding: 30px;
-    background: rgb(0, 57, 77);
-    font-size: 25px;
-    text-align: center;
-    padding: 10px;
-  }
+.button {color:#cccccc;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-size: 12px;
+}
 
+h2 {
+  border-bottom: 3px solid #cccccc;
+  font-size: 20px;
+  color: #4aaaa5;;
+  text-align: left;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+
+}
+
+body {
+  font-family: Arial;
+  font-size: 18px;
+  color: #777777;
+  background:rgba(231, 231, 231, 0.733);
+  margin: 0px auto;
+  position: relative;
+  height: 100vh;
+}
+
+
+#fixed {font-size: 15px;
+  text-align: right;
+  margin-bottom: 28px;
+  line-height: 28px;
+  color:white;
+}
+
+#page {float:right;
+}
+
+a {
+  color: darkgrey;
+}
+
+
+
+#bio-image {
+  width: 150px;
+  height: 150px;
+  padding: 8px;
+  float: left;
+  color: rgb(95, 95, 95);
+
+  /* VERY IMPORTANT TO CENTER ELEMENTS  */
+  margin: 0 auto;
+  line-height: 15px;
+
+}
+
+
+#bio-image1 {
+  width: 150px;
+  height: 150px;
+  padding: 8px;
+  float: left;
+  align-items: center;
+  color: rgb(95, 95, 95);
  
-  .button {color:white;
+
+  /* VERY IMPORTANT TO CENTER ELEMENTS  */
+  margin: 0 auto;
+  line-height: 15px;
+
+}
+
+#bio-image2 {
+  width: 150px;
+  height: 150px;
+  float: left;
+  padding: 8px;
+  color: rgb(95, 95, 95);
+
+
+  /* VERY IMPORTANT TO CENTER ELEMENTS  */
+  margin: 0 auto;
+  line-height: 15px;
+
+}
+
+#bio-image3 {
+  width: 150px;
+  padding: 8px;
+  float: left;
+  height: 150px;
+  color: rgb(95, 95, 95);
+ 
+
+  /* VERY IMPORTANT TO CENTER ELEMENTS  */
+  margin: 0 auto;
+  line-height: 15px;
+
+}
+
+#bio-image4 {
+  width: 150px;
+  height: 150px;
+  float: left;
+  padding: 8px;
+  color: rgb(95, 95, 95);
+
+  /* VERY IMPORTANT TO CENTER ELEMENTS  */
+  margin: 0 auto;
+  line-height: 15px;
+
+}
+
+.main-bio, p,
+.center {
+  text-align: center;
+  background: #ffffff;
+  font-size: 12px;
+  width: 960px;
+  height: 450px;
+  padding: 20px;
+  line-height: 100%;
+  align-items: center;
+  color: #777777;
+  overflow: scroll;
+
+
+  /* VERY IMPORTANT TO CENTER ELEMENTS  */
+  margin: 0 auto;
   }
 
-  footer {background-color: lightblue;
-    width: 100%;
-    height: 100px;
-    color: white;
-    padding: 20px;
 
-    position: absolute;
-
-    bottom: 0;
+  #bio-image::after{
+    content: "";
+    display: block;
+    clear: both;
   }
+
+  #bio-image1::after{
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  #bio-image2::after{
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  #bio-image3::after{
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  #bio-image4::after{
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+
+footer {background-color: #666666;
+  width: 100%;
+  height: 75px;
+  color: #ffffff;
+  padding: 20px;
+  font-family: Arial;
+  position: absolute;
+  font-size: 15px;
+  border-top: 10px solid #4aaaa5;
+
+
+  bottom: 0;
+}
