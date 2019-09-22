@@ -43,9 +43,11 @@
   }
 
  
-  .button {color:#cccccc;
+  .button {
+    color:#cccccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 12px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
   }
 
   h2 {
